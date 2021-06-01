@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Table /> should match snapshot 1`] = `
+.c0 {
+  border: 1px solid #ccc;
+  color: black;
+  width: 100%;
+  margin: 2rem 0;
+  border-collapse: collapse;
+  word-break: keep-all;
+}
+
+.c0 thead {
+  background-color: #cccccc;
+}
+
+.c0 th {
+  vertical-align: bottom;
+  padding: 0.3rem;
+}
+
+.c0 td {
+  border: 1px solid #ccc;
+  padding: 0.3rem;
+}
+
+<table
+  class="c0"
+>
+  <thead>
+    <tr>
+      <th>
+        #
+      </th>
+      <th>
+        From
+      </th>
+      <th>
+        To
+      </th>
+      <th>
+        Date And Time
+      </th>
+      <th>
+        Price
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        1
+      </td>
+      <td>
+        New York
+      </td>
+      <td>
+        Tehran
+      </td>
+      <td>
+        10:302021/1/1
+      </td>
+      <td>
+        1000
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`<Table /> should match snapshot with noResult 1`] = `
+.c0 {
+  color: white;
+  background-color: #e43c3c;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border-radius: 0.25rem;
+  font-weight: bold;
+  margin: 2rem 0;
+}
+
+<div
+  class="c0"
+  role="alert"
+>
+  text
+</div>
+`;

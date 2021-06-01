@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Selector /> should match snapshot 1`] = `
+.c0 {
+  position: relative;
+}
+
+.c2 {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-top: 0;
+  box-shadow: inset 0px 0px 3px 0px #6d6c6c8a;
+  max-height: 110px;
+  overflow: unset;
+}
+
+.c2 svg {
+  width: 30px;
+}
+
+.c1 {
+  display: block;
+  width: 100%;
+  height: 2.5rem;
+  padding: 6px 12px;
+  line-height: 1.5;
+  color: black;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ccc;
+}
+
+.c1:focus-visible {
+  outline: unset;
+}
+
+.c3 {
+  -webkit-animation: cqkDSr 2.625s linear infinite;
+  animation: cqkDSr 2.625s linear infinite;
+  height: 3rem;
+  width: 3rem;
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center;
+}
+
+.c4 {
+  -webkit-animation: caVMmK 1.5s ease-in-out infinite;
+  animation: caVMmK 1.5s ease-in-out infinite;
+  stroke: rgba(215,113,88,1);
+  stroke-linecap: round;
+}
+
+<div
+  class="c0"
+>
+  <input
+    class="c1"
+    placeholder="placeholder"
+    type="search"
+    value=""
+  />
+  <div
+    class="c2"
+  >
+    <svg
+      class="c3"
+      viewBox="-24 -24 48 48"
+    >
+      <circle
+        class="c4"
+        cx="0"
+        cy="0"
+        fill="none"
+        r="20"
+        stroke-width="4"
+      />
+    </svg>
+  </div>
+</div>
+`;

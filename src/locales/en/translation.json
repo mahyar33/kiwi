@@ -1,0 +1,17 @@
+{
+  "headerTitle": "Home Page",
+  "headerContent": "my test homepage",
+  "notFound": {
+    "headerTitle": "404 Page Not Found",
+    "headerContent": "Page not found",
+    "content": "Page not found."
+  },
+  "todos": "Todos",
+  "title": "Title",
+  "completed": "Completed",
+  "true": "yes",
+  "false": "no",
+  "keyword": "Keyword...",
+  "search": "Search",
+  "noResult": "No result for the given search parameters!"
+}
